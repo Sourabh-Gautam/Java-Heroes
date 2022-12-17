@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="person"
+		class="com.sc.collection.setterInjection.Person">
+		<property name="friendList" >
+			<list>
+				<value>sumit</value>
+				<value>sourabh</value>
+				<value>rohit</value>
+			</list>
+		</property>
+	</bean>
+
+</beans>
+
