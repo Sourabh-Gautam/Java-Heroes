@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="person"
+		class="com.sc.literal.setterInjection.customList.Person">
+		<property name="friends">
+			<list>
+				<bean class="com.sc.literal.setterInjection.customList.Friend">
+					<property name="friend" value="sumit" />
+				</bean>
+				<bean class="com.sc.literal.setterInjection.customList.Friend">
+					<property name="friend" value="sourabh" />
+				</bean>
+				<bean class="com.sc.literal.setterInjection.customList.Friend">
+					<property name="friend" value="rohit" />
+				</bean>
+			</list>
+		</property>
+	</bean>
+
+
+</beans>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="person"
+		class="com.sc.literal.setterInjection.customMap.Person">
+		<property name="friends">
+			<map>
+				<entry key="101">
+					<bean class="com.sc.literal.setterInjection.customMap.Friend">
+						<property name="friend" value="sumit" />
+					</bean>
+				</entry>
+				<entry key="102">
+					<bean class="com.sc.literal.setterInjection.customMap.Friend">
+						<property name="friend" value="sourabh" />
+					</bean>
+				</entry>
+				<entry key=" 103">
+					<bean class="com.sc.literal.setterInjection.customMap.Friend">
+						<property name="friend" value="rohit" />
+					</bean>
+				</entry>
+			</map>
+		</property>
+	</bean>
+
+</beans>
+
