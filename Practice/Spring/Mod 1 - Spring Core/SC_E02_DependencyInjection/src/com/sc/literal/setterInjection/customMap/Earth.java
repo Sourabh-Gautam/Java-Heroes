@@ -13,7 +13,7 @@ public class Earth {
 
 		Person person = applicationContext.getBean("person", Person.class);
 		System.out.println(person.getFriends());
-		
+
 		((ClassPathXmlApplicationContext)applicationContext).close();
 		
 
