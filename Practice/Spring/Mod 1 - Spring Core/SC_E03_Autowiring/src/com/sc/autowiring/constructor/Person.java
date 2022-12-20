@@ -1,14 +1,17 @@
-package com.sc.autowiring.byName;
+package com.sc.autowiring.constructor;
 
 public class Person {
 	private Heart dhadkan;
-
-	public Person() {
-		System.out.println("constructor czak");
+	
+	public Person(Heart dhadkan) {
+		super();
+		this.dhadkan = dhadkan;
+		System.out.println("Inside the constructor.");
 	}
 
 	public void setDhadkan(Heart dhadkan) {
 		this.dhadkan = dhadkan;
+		System.out.println("Inside setter.");
 	}
 
 	public void startPumping() {
@@ -18,4 +21,7 @@ public class Person {
 			System.out.println("heart is not pumbing");
 		}
 	}
+
+
+
 }

@@ -1,11 +1,8 @@
-package com.sc.autowiring.byName;
+package com.sc.autowiring.byType;
 
 public class Person {
 	private Heart dhadkan;
 
-	public Person() {
-		System.out.println("constructor czak");
-	}
 
 	public void setDhadkan(Heart dhadkan) {
 		this.dhadkan = dhadkan;

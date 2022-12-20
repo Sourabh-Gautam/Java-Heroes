@@ -4,8 +4,9 @@
 	xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean id="dhadkan" class="com.sc.autowiring.byName.Heart" />
-	<bean id="person" class="com.sc.autowiring.byName.Person"
+	<bean id="heart" class="com.sc.autowiring.byType.Heart" />
+	<bean id="dhadkan" class="com.sc.autowiring.byType.Heart" />
+	<bean id="person" class="com.sc.autowiring.byType.Person"
 		autowire="byName" />
 </beans>
 
