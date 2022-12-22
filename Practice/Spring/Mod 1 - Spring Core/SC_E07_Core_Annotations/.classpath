@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/sumit/OneDrive/Desktop/Java-Heroes/Material/Spring/springstarterjar/spring-aop-5.0.3.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/sumit/OneDrive/Desktop/Java-Heroes/Material/Spring/springstarterjar/spring-beans-5.0.3.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/sumit/OneDrive/Desktop/Java-Heroes/Material/Spring/springstarterjar/spring-context-5.0.3.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/sumit/OneDrive/Desktop/Java-Heroes/Material/Spring/springstarterjar/spring-core-5.0.3.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/sumit/OneDrive/Desktop/Java-Heroes/Material/Spring/springstarterjar/spring-expression-5.0.3.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/sumit/OneDrive/Desktop/Java-Heroes/Material/Spring/springstarterjar/spring-jcl-5.0.3.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/sumit/OneDrive/Desktop/Java-Heroes/Material/Spring/springstarterjar/spring-web-5.0.3.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/sumit/OneDrive/Desktop/Java-Heroes/Material/Spring/springstarterjar/spring-webmvc-5.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sumit/OneDrive/Desktop/Java-Heroes/Material/Spring/Spring Core 5.3.24 Jar/spring-aop-5.3.24.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sumit/OneDrive/Desktop/Java-Heroes/Material/Spring/Spring Core 5.3.24 Jar/spring-beans-5.3.24.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sumit/OneDrive/Desktop/Java-Heroes/Material/Spring/Spring Core 5.3.24 Jar/spring-context-5.3.24.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sumit/OneDrive/Desktop/Java-Heroes/Material/Spring/Spring Core 5.3.24 Jar/spring-core-5.3.24.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sumit/OneDrive/Desktop/Java-Heroes/Material/Spring/Spring Core 5.3.24 Jar/spring-expression-5.3.24.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sumit/OneDrive/Desktop/Java-Heroes/Material/Spring/Spring Core 5.3.24 Jar/spring-jcl-5.3.24.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

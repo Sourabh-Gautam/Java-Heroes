@@ -1,7 +1,8 @@
-package com.sc.annotation.component;
+package com.sc.annotation.configuration;
 
 import org.springframework.beans.factory.annotation.Required;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Component;
 
 @Component(value = "student")
@@ -15,7 +16,7 @@ public class Student {
 		return rollno;
 	}
 
-	@Value(value = "${student.rollno}")
+//	@Value(value = "${student.rollno}")
 	@Required
 	public void setRollno(int rollno) {
 		this.rollno = rollno;
