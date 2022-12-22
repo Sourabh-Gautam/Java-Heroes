@@ -6,11 +6,11 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/sumit/OneDrive/Desktop/Java-Heroes/Material/Spring/Spring Core 5.3.24 Jar/spring-aop-5.3.24.jar"/>
-	<classpathentry kind="lib" path="C:/Users/sumit/OneDrive/Desktop/Java-Heroes/Material/Spring/Spring Core 5.3.24 Jar/spring-beans-5.3.24.jar"/>
-	<classpathentry kind="lib" path="C:/Users/sumit/OneDrive/Desktop/Java-Heroes/Material/Spring/Spring Core 5.3.24 Jar/spring-context-5.3.24.jar"/>
-	<classpathentry kind="lib" path="C:/Users/sumit/OneDrive/Desktop/Java-Heroes/Material/Spring/Spring Core 5.3.24 Jar/spring-core-5.3.24.jar"/>
-	<classpathentry kind="lib" path="C:/Users/sumit/OneDrive/Desktop/Java-Heroes/Material/Spring/Spring Core 5.3.24 Jar/spring-expression-5.3.24.jar"/>
-	<classpathentry kind="lib" path="C:/Users/sumit/OneDrive/Desktop/Java-Heroes/Material/Spring/Spring Core 5.3.24 Jar/spring-jcl-5.3.24.jar"/>
+	<classpathentry kind="lib" path="D:/Java-Heroes/Material/Spring/Spring Core 5.3.24 Jar/spring-aop-5.3.24.jar"/>
+	<classpathentry kind="lib" path="D:/Java-Heroes/Material/Spring/Spring Core 5.3.24 Jar/spring-beans-5.3.24.jar"/>
+	<classpathentry kind="lib" path="D:/Java-Heroes/Material/Spring/Spring Core 5.3.24 Jar/spring-context-5.3.24.jar"/>
+	<classpathentry kind="lib" path="D:/Java-Heroes/Material/Spring/Spring Core 5.3.24 Jar/spring-core-5.3.24.jar"/>
+	<classpathentry kind="lib" path="D:/Java-Heroes/Material/Spring/Spring Core 5.3.24 Jar/spring-expression-5.3.24.jar"/>
+	<classpathentry kind="lib" path="D:/Java-Heroes/Material/Spring/Spring Core 5.3.24 Jar/spring-jcl-5.3.24.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
