@@ -13,13 +13,20 @@ public class ForEachExample {
 		list.add("Mohit");
 		list.add("Pobin");
 
-		Iterator<String> it = list.iterator();
-		while(it.hasNext()) {
-			String name = it.next();
-			if(name.startsWith("P")) {
-				it.remove();
+//		Iterator<String> it = list.iterator();
+//		while(it.hasNext()) {
+//			String name = it.next();
+//			if(name.startsWith("P")) {
+//				it.remove();
+//			}
+//		}
+		
+		list.forEach( e -> {
+			if(e.startsWith("P")) {
+				list.add("Po");
+//				list.remove(e);
 			}
-		}
+		});
 		
 		System.out.println(list);
 
